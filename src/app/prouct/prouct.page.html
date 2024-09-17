@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="new">
+    <ion-button slot="start" color="danger">
+
+    <ion-back-button
+    default-href="#"></ion-back-button>
+    </ion-button>
+    <ion-title>กลับไปหน้าหลัก</ion-title>
+    </ion-toolbar>
+    </ion-header>
+
+    <ion-content [fullscreen]="true">
+      <ion-grid class="text-center">
+        <!--แถวที่1--><ion-row>
+          <ion-col>
+            <ion-item>
+              <img src="assets/img/ขวดน้า.png" alt="ขนม" style="width: 40.1%; margin-bottom: 10px;">
+            </ion-item>
+            <ion-button id="present-alert"   (click)="navigateToDrinks()" >เครื่องดื่ม</ion-button>
+          </ion-col>
+            <ion-col>
+              <ion-item>
+                <img src="assets/img/Pngtreehand-painted_potato_chips_snack_food_3899012.png" alt="ขนม" style="width: 100%; margin-bottom: 10px;">
+              </ion-item>
+              <ion-button id="present-alert" (click)="navigateToFood()" >ขนม</ion-button>
+            </ion-col>
+            
+          <ion-row>
+            <ion-col>
+              <ion-item>
+                <img src="assets/img/pngtree-cartoon-cute-delicious-string-of-hand-painted-elements-of-balls-png-image_4457946-Photoroom.png" alt="ขนม" style="width: 100.10%; margin-bottom: 10px;">
+              </ion-item>
+              <ion-button id="present-alert" (click)="navigateToNextPage12()">ของกินเล่น</ion-button>
+
+            </ion-col>
+              <ion-col>
+                <ion-item>
+                  <img src="assets/img/Pngbie--20210603232126-Photoroom.png" alt="ขนม" style="width: 100%; margin-bottom: 10px;">
+                </ion-item>
+                <ion-button id="present-alert"(click)="navigateToMama()">กึ่งสำเร็จรูป</ion-button>
+              </ion-col>
+            <ion-row>
+          </ion-row>
+        
+      
